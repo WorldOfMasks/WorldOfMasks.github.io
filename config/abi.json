@@ -330,6 +330,19 @@
 	{
 		"inputs": [
 			{
+				"internalType": "uint256",
+				"name": "_newRoyaltiesPercentage",
+				"type": "uint256"
+			}
+		],
+		"name": "setRoyaltiesPercentage",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
 				"internalType": "address",
 				"name": "newRoyaltiesReceiver",
 				"type": "address"
@@ -430,6 +443,19 @@
 	{
 		"inputs": [],
 		"name": "baseExtension",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "baseURI",
 		"outputs": [
 			{
 				"internalType": "string",
