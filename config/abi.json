@@ -161,13 +161,6 @@
 		"type": "function"
 	},
 	{
-		"inputs": [],
-		"name": "reveal",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
 		"inputs": [
 			{
 				"internalType": "address",
@@ -310,6 +303,19 @@
 			}
 		],
 		"name": "setOneNftForFreeIfMintingAtLeast",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bool",
+				"name": "_state",
+				"type": "bool"
+			}
+		],
+		"name": "setRevealed",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
